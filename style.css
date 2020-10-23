@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-image: url(./assets/images/tumblr_p7q27yzWXc1x8dkuto1_540.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Press Start 2P", cursive;
+}
+
+#currentImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+div button {
+  background-color: maroon;
+  display: inline-block;
+  padding: 10px 40px;
+  margin: 10px;
+  border-radius: 15px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+}
+
+div button a {
+  text-decoration: none;
+  color: black;
+}
+
+div button a:hover {
+  color: white;
+}
+
+#next {
+  background-color: #587291;
+}
+
+#learn {
+  background-color: #488b49;
+  text-decoration: none;
+}
+
+.song {
+  display: none;
+}
+
+#container {
+  margin: 56px 200px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  margin-top: 0px;
+  background-color: white;
+  opacity: 0.8;
+}
